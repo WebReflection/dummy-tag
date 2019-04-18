@@ -10,7 +10,21 @@
     "cjs": "cp index.js cjs/ && echo 'module.exports = dummyTag;'>>cjs/index.js",
     "esm": "cp index.js esm/ && echo 'export default dummyTag;'>>esm/index.js"
   },
-  "keywords": ["dummy", "template", "literal", "tag", "function"],
+  "keywords": [
+    "dummy",
+    "template",
+    "literal",
+    "tag",
+    "function"
+  ],
   "author": "Andrea Giammarchi",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/dummy-tag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/dummy-tag/issues"
+  },
+  "homepage": "https://github.com/WebReflection/dummy-tag#readme"
 }

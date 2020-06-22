@@ -1,6 +1,6 @@
 function dummyTag(t) {
-  for (var o = [t[0]], i = 1, l = arguments.length; i < l; i++)
-    o.push(arguments[i], t[i]);
-  return o.join('');
+  for (var s = t[0], i = 1, l = arguments.length; i < l; i++)
+    s += arguments[i] + t[i];
+  return s;
 }
 module.exports = dummyTag;

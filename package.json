@@ -1,6 +1,6 @@
 {
-  "name": "noop-tag",
-  "version": "1.1.0",
+  "name": "dummy-tag",
+  "version": "1.2.0",
   "description": "A noop JS template literal tag",
   "main": "cjs/index.js",
   "module": "esm/index.js",
